@@ -309,8 +309,8 @@
       </blockquote>
     </section>
 
-    <div data-type="newStreamPlayer" data-publicToken="1b57d6fc-24fe-48ea-870f-6f0b671a989f" data-theme="dark" data-color="1E50E8" data-channelId="9ef30700-8818-4006-9bdf-744edea19e9e" data-rendered="false" class="cstrEmbed"><a href="https://www.caster.fm">Shoutcast Hosting</a> <a href="https://www.caster.fm">Stream Hosting</a> <a href="https://www.caster.fm">Radio Server Hosting</a></div>
-      <script src="//cdn.cloud.caster.fm//widgets/embed.js"></script>
+    <div data-type="newStreamPlayer" data-publicToken="1b57d6fc-24fe-48ea-870f-6f0b671a989f" data-theme="light" data-color="1E50E8" data-channelId="9ef30700-8818-4006-9bdf-744edea19e9e" data-rendered="false" class="cstrEmbed"><a href="https://www.caster.fm">Shoutcast Hosting</a> <a href="https://www.caster.fm">Stream Hosting</a> <a href="https://www.caster.fm">Radio Server Hosting</a></div>
+    <script src="//cdn.cloud.caster.fm//widgets/embed.js"></script>
 
     <section class="section missao" aria-label="Nossa Missão">
       <h2>Nossa Missão</h2>
@@ -382,13 +382,6 @@
 
   <script>
   let isPlaying = false;
-
-  // URL do seu stream direto no Caster.fm
-  const audio = new Audio('http://sapircast.caster.fm:15910/cg6ah');
-  audio.volume = 1;
-
-  const playBtn = document.getElementById('topPlayBtn');
-  const volumeControl = document.getElementById('topVolume');
 
   playBtn.addEventListener('click', () => {
     if (!isPlaying) {
